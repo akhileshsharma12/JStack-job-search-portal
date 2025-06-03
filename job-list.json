@@ -1,0 +1,142 @@
+[
+    {
+        "index": "1",
+        "image": "../images/google.png",
+        "tittle": "Frontend Developer",
+        "rate": "$1000-1300/m",
+        "av": "Full Time"
+    },
+    {
+        "index": "2",
+        "image": "../images/apple.png",
+        "tittle": "React Developer",
+        "rate": "$1100-1500/m",
+        "av": "Part Time"
+    },
+    {
+        "index": "3",
+        "image": "../images/facebook.png",
+        "tittle": "Full Stack Developer",
+        "rate": "$1200-1600/m",
+        "av": "Contract"
+    },
+    {
+        "index": "4",
+        "image": "../images/instagram.png",
+        "tittle": "Junior Web Developer",
+        "rate": "$800-1100/m",
+        "av": "Internship"
+    },
+    {
+        "index": "5",
+        "image": "../images/linkedin.png",
+        "tittle": "Senior Web Developer",
+        "rate": "$1500-2000/m",
+        "av": "Full Time"
+    },
+    {
+        "index": "6",
+        "image": "../images/uber.png",
+        "tittle": "UI/UX Designer",
+        "rate": "$1000-1300/m",
+        "av": "Remote"
+    },
+    {
+        "index": "7",
+        "image": "../images/yahoo.png",
+        "tittle": "MERN Stack Developer",
+        "rate": "$1300-1700/m",
+        "av": "Full Time"
+    },
+    {
+        "index": "8",
+        "image": "../images/google.png",
+        "tittle": "Backend Developer",
+        "rate": "$1100-1400/m",
+        "av": "Part Time"
+    },
+    {
+        "index": "9",
+        "image": "../images/apple.png",
+        "tittle": "WordPress Developer",
+        "rate": "$900-1000/m",
+        "av": "Freelance"
+    },
+    {
+        "index": "10",
+        "image": "../images/facebook.png",
+        "tittle": "React Native Developer",
+        "rate": "$1000-1350/m",
+        "av": "Remote"
+    },
+    {
+        "index": "11",
+        "image": "../images/instagram.png",
+        "tittle": "Next.js Developer",
+        "rate": "$1200-1500/m",
+        "av": "Full Time"
+    },
+    {
+        "index": "12",
+        "image": "../images/linkedin.png",
+        "tittle": "Freelance Developer",
+        "rate": "$800-1200/m",
+        "av": "Freelance"
+    },
+    {
+        "index": "13",
+        "image": "../images/uber.png",
+        "tittle": "Software Engineer",
+        "rate": "$1400-1800/m",
+        "av": "Contract"
+    },
+    {
+        "index": "14",
+        "image": "../images/yahoo.png",
+        "tittle": "PHP Developer",
+        "rate": "$900-1100/m",
+        "av": "Part Time"
+    },
+    {
+        "index": "15",
+        "image": "../images/google.png",
+        "tittle": "JavaScript Developer",
+        "rate": "$1100-1300/m",
+        "av": "Full Time"
+    },
+    {
+        "index": "16",
+        "image": "../images/apple.png",
+        "tittle": "Tech Intern",
+        "rate": "$500-700/m",
+        "av": "Internship"
+    },
+    {
+        "index": "17",
+        "image": "../images/facebook.png",
+        "tittle": "Junior Frontend Developer",
+        "rate": "$800-950/m",
+        "av": "Remote"
+    },
+    {
+        "index": "18",
+        "image": "../images/instagram.png",
+        "tittle": "API Developer",
+        "rate": "$1000-1200/m",
+        "av": "Full Time"
+    },
+    {
+        "index": "19",
+        "image": "../images/linkedin.png",
+        "tittle": "Technical Support Engineer",
+        "rate": "$700-1000/m",
+        "av": "Part Time"
+    },
+    {
+        "index": "20",
+        "image": "../images/uber.png",
+        "tittle": "DevOps Engineer",
+        "rate": "$1500-1900/m",
+        "av": "Full Time"
+    }
+]

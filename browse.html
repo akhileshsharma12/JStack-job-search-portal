@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSTACK - Search Jobs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!-- Header  Section-->
+
+    <header>
+        <div id="navbar" class="obj-width">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="image"></a>
+
+            <ul id="menu">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="browse.html"> Browse Jobs </a></li>
+                <li><a href="/contact.html"> Contacts </a></li>
+                <button id="w-btn"> Join </button>
+            </ul>
+
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </header>
+
+
+    <!-- Jobs Section -->
+
+    <section class="jobs sec-space obj-width extra-space">
+        <h2> Jobs in demand </h2>
+        <p> Most viewed and all-time top-selling services. </p>
+
+        <form action="">
+            <i class='bx bx-search-alt-2'></i>
+            <input type="text" placeholder="search Bar" id="searchBar">
+        </form>
+
+        <!-- <ul class="job-id">
+            <li data-target="all" class="active"> React Jobs </li>
+            <li data-target="freelancer"> Freelancers </li>
+            <li data-target="fulltime"> Full Time </li>
+            <li data-target="parttime"> Part Time </li>
+        </ul> -->
+
+        <div class="jobs-container" id="root">
+            <p class="not-found"> Job Not Found </p>
+
+
+            <li data-item="parttime" class="jList" onclick="window.location.href='./job-details1.html' ">
+                <img src="images/apple.png" alt="">
+                <h3 id="job-code-tittle"> React Developer </h3>
+                <p> $1100-1500/m </p>
+                <span id="key"> Part Time </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/google.png" alt="">
+                <h3 id="job-code-tittle"> Frontend Developer </h3>
+                <p> $1000-1300/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+            <li data-item="contract" class="jList" onclick="window.location.href='./job-details2.html' ">
+                <img src="images/facebook.png" alt="">
+                <h3 id="job-code-tittle"> Full Stack Developer </h3>
+                <p> $1200-1600/m </p>
+                <span id="key"> Contract </span>
+            </li>
+            <li data-item="internship" class="jList" onclick="window.location.href='./job-details3.html' ">
+                <img src="images/instagram.png" alt="">
+                <h3 id="job-code-tittle"> Junior Web Developer </h3>
+                <p> $800-1100/m </p>
+                <span id="key"> Internship </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details4.html' ">
+                <img src="images/linkedin.png" alt="">
+                <h3 id="job-code-tittle"> Senior Web Developer </h3>
+                <p> $1500-2000/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+            <li data-item="remote" class="jList" onclick="window.location.href='./job-details5.html' ">
+                <img src="images/uber.png" alt="">
+                <h3 id="job-code-tittle"> UI/UX Designer </h3>
+                <p> $1000-1300/m </p>
+                <span id="key"> Remote </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details6.html' ">
+                <img src="images/yahoo.png" alt="">
+                <h3 id="job-code-tittle"> MERN Stack Developer </h3>
+                <p> $1300-1700/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+            <li data-item="parttime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/google.png" alt="">
+                <h3 id="job-code-tittle"> Backend Developer </h3>
+                <p> $1100-1400/m </p>
+                <span id="key"> Part Time </span>
+            </li>
+            <li data-item="freelance" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/apple.png" alt="">
+                <h3 id="job-code-tittle"> WordPress Developer </h3>
+                <p> $900-1000/m </p>
+                <span id="key"> Freelance </span>
+            </li>
+            <li data-item="remote" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/facebook.png" alt="">
+                <h3 id="job-code-tittle"> React Native Developer </h3>
+                <p> $1000-1350/m </p>
+                <span id="key"> Remote </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/instagram.png" alt="">
+                <h3 id="job-code-tittle"> Next.js Developer </h3>
+                <p> $1200-1500/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+            <li data-item="freelance" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/linkedin.png" alt="">
+                <h3 id="job-code-tittle"> Freelance Developer </h3>
+                <p> $800-1200/m </p>
+                <span id="key"> Freelance </span>
+            </li>
+            <li data-item="contract" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/uber.png" alt="">
+                <h3 id="job-code-tittle"> Software Engineer </h3>
+                <p> $1400-1800/m </p>
+                <span id="key"> Contract </span>
+            </li>
+            <li data-item="parttime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/yahoo.png" alt="">
+                <h3 id="job-code-tittle"> PHP Developer </h3>
+                <p> $900-1100/m </p>
+                <span id="key"> Part Time </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/google.png" alt="">
+                <h3 id="job-code-tittle"> JavaScript Developer </h3>
+                <p> $1100-1300/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+            <li data-item="internship" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/apple.png" alt="">
+                <h3 id="job-code-tittle"> Tech Intern </h3>
+                <p> $500-700/m </p>
+                <span id="key"> Internship </span>
+            </li>
+            <li data-item="remote" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/facebook.png" alt="">
+                <h3 id="job-code-tittle"> Junior Frontend Developer </h3>
+                <p> $800-950/m </p>
+                <span id="key"> Remote </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/instagram.png" alt="">
+                <h3 id="job-code-tittle"> API Developer </h3>
+                <p> $1000-1200/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+            <li data-item="parttime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/linkedin.png" alt="">
+                <h3 id="job-code-tittle"> Technical Support Engineer </h3>
+                <p> $700-1000/m </p>
+                <span id="key"> Part Time </span>
+            </li>
+            <li data-item="fulltime" class="jList" onclick="window.location.href='./job-details.html' ">
+                <img src="images/uber.png" alt="">
+                <h3 id="job-code-tittle"> DevOps Engineer </h3>
+                <p> $1500-1900/m </p>
+                <span id="key"> Full Time </span>
+            </li>
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="obj-width">
+            <div class="top">
+                <div>
+                    <img class="logo" src="images/logo.png" alt="image">
+                    <p> Search your desired jobs. </p>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="'bx  bx1-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="'bx  bx1-instagram-alt"></i>
+                    </a>
+                    <a href="#">
+                        <i class="'bx  bx1-behance"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bx1-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div>
+                    <h3> Projects </h3>
+                    <a href="#"> Changelog </a>
+                    <a href="#"> Status </a>
+                    <a href="#"> Licence </a>
+                    <a href="#"> All Versions </a>
+                </div>
+                <div>
+                    <h3> Community </h3>
+                    <a href="#"> Changelog </a>
+                    <a href="#"> Status </a>
+                    <a href="#"> Licence </a>
+                    <a href="#"> All Versions </a>
+                </div>
+                <div>
+                    <h3> Help </h3>
+                    <a href="#"> Changelog </a>
+                    <a href="#"> Status </a>
+                    <a href="#"> Licence </a>
+                    <a href="#"> All Versions </a>
+                </div>
+                <div>
+                    <h3> Others </h3>
+                    <a href="#"> Changelog </a>
+                    <a href="#"> Status </a>
+                    <a href="#"> Licence </a>
+                    <a href="#"> All Versions </a>
+                </div>
+            </div>
+
+            <div class="bottom2">
+                <p> &copy; 2023 JSTACK. All rights reserved. </p>
+                <p> Akhilesh Sharma </p>
+            </div>
+
+
+            <div class="bottom3">
+                <a href="/privacy terms/privacyPolicies.html"> Privacy Policies </a>
+                <a href="/privacy terms/termsAndCondition.html"> Terms & Condtions </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripting -->
+
+    <script src="script.js"></script>
+    <script src="toggle.js"></script>
+    <script src="job-search.js"></script>
+    <script src="job-list.js"></script>
+
+</body>
+
+</html>
