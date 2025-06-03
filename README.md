@@ -2,6 +2,8 @@
 
 A modern, responsive Job Search Portal that allows users to browse, search, and apply for jobs. Built with HTML, CSS, and JavaScript.
 
+Click to visit site 
+
 ## Features
 
 - Browse and search for jobs by title, company, or location
